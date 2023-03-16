@@ -9,7 +9,7 @@
  * 2. The message or data to be written
  * 3. The number of bytes to be written
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (FAILURE)
  */
 int main(void)
 {
