@@ -2,8 +2,11 @@
 
 /**
  * main - Entry point
- * OBJECTIVE :: To illustrate the size of various data(types) on the computer it is compiled and run.
- * PLATFORM :: 32-bit/64-bit architecture.
+ *
+ * OBJECTIVE :: To illustrate the size of various data(types) on the computer
+ * it is compiled and run.
+ *
+ * PLATFORM :: 32-bit/64-bit architecture
  *
  * Return: Always 0 (Success)
  */
