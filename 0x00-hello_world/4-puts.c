@@ -3,10 +3,11 @@
 /**
  * main - Entry point
  * Print hardcoded string using only puts() function.
- * Program `return 0;` indicates successfull execution.
+ *
+ * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	puts("Programming is like building a multilingual puzzle\n");
-	return 0;
+	return (0);
 }
