@@ -9,10 +9,10 @@
  * 2. The message or data to be written
  * 3. The number of bytes to be written
  *
- * Return: Always 0 (FAILURE)
+ * Return: Always 1 (FAILURE)
  */
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (0);
+	return (1);
 }
