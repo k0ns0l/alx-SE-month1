@@ -11,11 +11,13 @@
 
 int main(void)
 {
-	for (char lCase = 'a'; lCase <= 'z'; lCase++)
+	char lCase, uCase;
+
+	for (lCase = 'a'; lCase <= 'z'; lCase++)
 	{
 		putchar(lCase);
 	}
-	for (char uCase = 'A'; uCase <= 'Z'; uCase++)
+	for (uCase = 'A'; uCase <= 'Z'; uCase++)
 	{
 		putchar(uCase);
 	}
