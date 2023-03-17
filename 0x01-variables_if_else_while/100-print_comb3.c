@@ -1,7 +1,15 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: integer 0 on success
+ *
+ * A program that prints all possible different combinations of two digits.
+ *
+ * REQUIREMENT: Numbers must be separated by ',', followed by a space
+ * The two digits must be unique
+ * You can only use putchar() five times maximum in your code
+ * You are not allowed to use any variable of type char
+ *
+ * Return: 0 (Success)
  */
 
 int main(void)
