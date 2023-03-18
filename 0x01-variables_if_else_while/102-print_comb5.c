@@ -4,39 +4,34 @@
  * main - Entry point
  *
  * Return: 0 (Success)
- *
  */
 
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = 0; a <= 99; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
+		b = a + 1;
+
+		while (b <= 99)
 		{
-			for (c = '0'; c <= '9'; c++)
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
+			putchar(' ');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
+
+			if (a != 98 || b != 99)
 			{
-				for (d = '0'; d <= '9'; d++)
-				{
-					if (((c + d) > (a + b) && c >= a) || a < c)
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (a + b + c + d == 227 && a == 57)
-					{
-						break;
-					}
-					else
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
+
+			b++;
+
 		}
+
 	}
 	putchar('\n');
 	return (0);
