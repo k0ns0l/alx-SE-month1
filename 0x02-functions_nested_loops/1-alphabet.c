@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
+ * print_alphabet - Print lowercase alphabets
  *
- * print-alphabet: A simple program to print lowercase letters,
- * in alphabetic order.
+ * Description: This function prints characters a-z using a while loop.
  *
- * Return: 0 (Success)
  */
 
 void print_alphabet(void)
