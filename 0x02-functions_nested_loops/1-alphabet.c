@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
  *
- * A simple program to print lowercase letters, in alphabetic order.
+ * print-alphabet: A simple program to print lowercase letters,
+ * in alphabetic order.
  *
  * Return: 0 (Success)
  */
