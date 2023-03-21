@@ -1,7 +1,5 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
-
+#include <string.h>
 /**
  * main - Entry point
  * A simple program to print '_putchar'
@@ -19,9 +17,9 @@ int main(void)
 
 	for (i = 0; i < len; i++)
 	{
-		putchar(str[i]);
+		_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
