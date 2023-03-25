@@ -3,10 +3,6 @@
 
 /**
  * main - prints number sequence - [1-100]
- *
- *
- * Description: TO ADD!
- *
  * Return: 0 (Success)
  */
 
