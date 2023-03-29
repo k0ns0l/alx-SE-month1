@@ -4,6 +4,10 @@
  * _atoi - converts a string to an integer
  * @s: string to be converted
  *
+ * Authored: Princeeze744/
+ * Source: https://github.com/Princeeze744/alx-low_level_programming/\
+ * 0x05-pointers_arrays_strings/100-atoi.c
+ *
  * Return: the int converted from the string
  */
 int _atoi(char *s)
