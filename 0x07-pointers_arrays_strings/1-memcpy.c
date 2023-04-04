@@ -11,8 +11,12 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	char *d = dest; /* Placeholder for <ptr> @dest parameter */
+
+	const char *s = src; /* SAFETY: src cannot be modified */
+
 	while (n--)
-		*dest++ = *src++;
+		*d++ = *s++;
 
 	return (dest);
 }
