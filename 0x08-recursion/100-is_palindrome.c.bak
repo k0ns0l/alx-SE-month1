@@ -1,0 +1,38 @@
+#include "main.h"
+/**
+ * _strlen - computes lenght of string
+ * @s: string parameter
+ * Return: <int>
+ */
+int _strlen(char *s)
+{
+	int lenght;
+
+	lenght = 0;
+
+	while (*s != '\0')
+	{
+		lenght++;
+		s++;
+	}
+	return (lenght);
+}
+
+/**
+ * is_palindrome - checks if string is palindrome
+ * @s: string to check
+ * Return: 1 (positive), else 0
+ */
+int is_palindrome(char *s)
+{
+	int i, len;
+
+	len = _strlen(s);
+
+	for (i = 0; i < len / 2; i++)
+	{
+		if (s[i] != s[len - 1 - i])
+			return (0);
+	}
+	return (1);
+}
