@@ -14,9 +14,13 @@ int is_prime_number(int n)
 		return (1);
 	if (n % 2 == 0 || n % 3 == 0)
 		return (0);
-	int factor = 5;
+	int factor;
 
-	int inc = 2;
+	factor = 5;
+
+	int inc;
+
+	inc = 2;
 
 	while (inc * inc <= n)
 	{
