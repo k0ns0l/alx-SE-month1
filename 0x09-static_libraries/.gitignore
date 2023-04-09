@@ -1,0 +1,7 @@
+# Executables
+*.exe
+*.out
+# cached SWP files
+~.swp
+# Prototypes - UNUSED!
+*.c
