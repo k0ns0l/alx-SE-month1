@@ -30,7 +30,7 @@ char *_strdup(char *str)
 
 	char *ch = malloc(sizeof(*ch) * (len + 1));
 
-	if (ch == NULL)
+	if (ch == NULL || str == NULL)
 		return (NULL);
 
 	len = 0;
