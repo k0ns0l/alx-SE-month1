@@ -28,12 +28,12 @@ char *_strdup(char *str)
 {
 	int len = _strlen(str);
 
-	char *ch = malloc(sizeof(*ch) * (len + 1));
+	char *ch = (char *) malloc(sizeof(*ch) * (len + 1));
 
-	if (!str)
+	if (str == NULL)
 		return (NULL);
 
-	else if (ch == NULL)
+	if (ch == NULL)
 		return (NULL);
 
 	len = 0;
