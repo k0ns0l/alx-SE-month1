@@ -1,0 +1,9 @@
+# Executables
+*.exe
+*.out
+# cached SWP files
+~.swp
+#valgrind logs
+valgrind*.log
+vgcore.*
+*.vgcore.*
